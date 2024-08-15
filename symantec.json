@@ -4,7 +4,8 @@
   "author": "aessassi",
   "description": "Responder to deny list an IOC using Symantec EDR API",
   "dataTypeList": ["ip", "domain", "url"],
-  "command": "python3 symantec.py"
+  "baseConfig": "Symantec_EDR_DenyList",
+  "command": "symantec.py",
   "configurationItems": [
     {
       "name": "key",
